@@ -4,7 +4,7 @@
 
 
 # How to install Neovim
-I make use of neovim, still vim but allow a wider use of more integrated plugins, which you can use to build your customDevelopment environment. These are the steps to install neovim on your linux(ubuntu) system.
+I make use of neovim, still vim but allow a wider use of more integrated plugins, which you can use to build your ***Custom Development Environment (CDE) or Personal Development Environment (PDE)***. These are the steps to install neovim on your linux(ubuntu) system.
 You can install it by using the apt command like this:
 ###
     sudo apt-get install neovim
@@ -22,7 +22,11 @@ After this if you want to use neovim, you just have to type in "nv" on your term
     nv
 
 # Making use of my configuration For NVIM.
-After cloning this repository run the command below inside the repository
+- Clone this repository into your terminal.
+###
+    git clone https://github.com/ConquerorCletus/my_config.git
+
+- Then, run the command below inside the repository directory
 ###
     mkdir -p ~/.config/nvim
     cp init.vim ~/.config/nvim/
