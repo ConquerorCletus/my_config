@@ -1,5 +1,5 @@
 # Config files for BASH, NVIM, VIM and COC Extensions.
-
+![image of Neovim](./nvim image.PNG)
 # How to install Neovim
 These are the steps to install neovim in your system.
 ###
