@@ -4,7 +4,7 @@
 
 
 # How to install Neovim
-These are the steps to install neovim in your system.
+These are the steps to install neovim on your linux(ubuntu) system.
 ###
     curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
     chmod u+x nvim.appimage
@@ -20,10 +20,18 @@ After cloning this repository run the command below inside the repository
     mkdir -p ~/.config/nvim
     cp init.vim ~/.config/nvim/
 
+# Some features of my NVIM(my shell text editor i.e VIM).
 With my configuration you can do/have the following, not all are mentioned here you might need the help of chatGPT:
-1. You would be able to use autocompletion in C an Python
-2. You can hve your terminal with the press of F6
+1. You would be able to use autocompletion in C, Python and your text files.
+2. You can hve your terminal with the press of F6.
+3. With ctrl+t you can toggle you file panel/nerdtree.
+4. You can automatically wrap your codes.
+5. You can see git changes on your file due to the git integration.
+6. You have access to Variety of colorschemes and also have number displayed and mouse enabled, you paste by shift+right click.
+7. You can move lines of code by selecting and pressing j or k on your keyboard to move down or up.
+8. You coding errors would be indicated, there is a syntax/error checker.
 
+These are some features i can remember, I install plugins and map keys to make it easier for me to use but you would like my Configuration. 
 # How to install VIM Plug
 ###
     curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
