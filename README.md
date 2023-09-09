@@ -55,6 +55,7 @@ You might have to install nodejs because a plugin like neoclide COC plugin which
     sudo apt install nodejs
 ###
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+    source ~/.bashrc
 ###
     nvm install v18.15.0
 
