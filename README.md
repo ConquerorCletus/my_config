@@ -8,8 +8,9 @@ These are the steps to install neovim in your system.
     ./nvim.appimage
 
 # How to install VIM Plug
-   curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
+###
+    curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Additional Notes for Neovim Config.
 To fully enable C/C++ auto complete on neovim then Clangd must be installed on the terminal
