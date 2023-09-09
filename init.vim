@@ -5,7 +5,7 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
-:colorscheme slate
+:colorscheme koehler
 :set completeopt-=preview " For No Previews
 :set clipboard+=unnamedplus
 filetype plugin indent on
@@ -14,9 +14,9 @@ autocmd FileType tex let b:coc_pairs = [["$", "$"]]
 call plug#begin()
 
 Plug 'matze/vim-move' " To move line and suggestion
-Plug 'tpope/vim-fugitive' " git integration
+""Plug 'tpope/vim-fugitive' " git integration
 Plug 'nathanaelkane/vim-indent-guides' " indent guides
-Plug 'hynek/vim-python-pep8-indent' " another indent guide
+""'Plug 'hynek/vim-python-pep8-indent' " another indent guide
 Plug 'scrooloose/syntastic' " Syntax checks
 Plug 'foosoft/vim-argwrap' " For wrapping arguments
 Plug 'airblade/vim-gitgutter' " Show git changes in open files
@@ -47,6 +47,7 @@ nnoremap <F6> :vsp<CR>:terminal<CR>
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '▼'
 let g:NERDTreeShowDevIcons = 1
+" let g:coc_disable_startup_warning = 1
 
 " formatting with semistandard for JS  
 let g:syntastic_javascript_checkers=['standard']
