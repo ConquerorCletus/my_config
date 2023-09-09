@@ -4,7 +4,7 @@
 
 
 # How to install Neovim
-These are the steps to install neovim on your linux(ubuntu) system.
+I make use of neovim, still vim but allow a wider use of more integrated plugins, which you can use to build your customDevelopment environment. These are the steps to install neovim on your linux(ubuntu) system.
 You can install it by using the apt command like this:
 ###
     sudo apt-get install neovim
