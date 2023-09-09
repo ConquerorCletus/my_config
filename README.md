@@ -78,8 +78,9 @@ Then you can install the COC extension below in your command mode of neovim
 ###
     :CocInstall coc-python
 
-Run this on your neovim terminal afterwards install jedi module for python with the command below on your terminal.
-
+Run this on your neovim terminal afterwards install jedi module for python with the command below on your terminal. Now i am assuming you have pip3 installed but if you don't then you can install it with this command
+###
+    sudo apt install python3-pip
 ###
     pip install jedi
 
