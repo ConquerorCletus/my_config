@@ -51,6 +51,7 @@ These are some features i can remember, I install plugins and map keys to make i
 This vim plug is necessary because it is the plugin manager of neovim and vim without it you can't install plugins necessary to configure your vim
 
 **with VIM plug installed for neovim and my config files, You can then use the command below to install the plugins.**
+Use this command in neovim command mode.
 ###
     :PlugInstall
 
