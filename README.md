@@ -53,7 +53,9 @@ This vim plug is necessary because it is the plugin manager of neovim and vim wi
 You might have to install nodejs because a plugin like neoclide COC plugin which is used for autocompletion and is connected to LSP would need it. On your terminal run the command below, it would ensure you have the nodejs installed and the necessay version needed for the plugins to work with no error:
 ###
     sudo apt install nodejs
+###
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+###
     nvm install v18.15.0
 
 # Additional Notes for Neovim Config.
