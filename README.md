@@ -5,6 +5,11 @@
 
 # How to install Neovim
 These are the steps to install neovim on your linux(ubuntu) system.
+You can install it by using the apt command like this:
+###
+    sudo apt-get install neovim
+
+**But i recommend to install neovim with an appimage as shown below:**
 ###
     curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
     chmod u+x nvim.appimage
@@ -13,6 +18,8 @@ These are the steps to install neovim on your linux(ubuntu) system.
     nv
 
 After this if you want to use neovim, you just have to type in "nv" on your terminal
+###
+    nv
 
 # Making use of my configuration For NVIM.
 After cloning this repository run the command below inside the repository
@@ -65,9 +72,6 @@ Then you can install the COC extension below in your command mode of neovim
     :CocInstall coc-snippets
 
 ## Python Configuration of COC
-while for python the jedi package must be available. which can be done by getting it on the terminal
-by using the command.
-
 ###
     :CocInstall coc-python
 
