@@ -2,9 +2,10 @@
 
 # How to install Neovim
 These are the steps to install neovim in your system.
-` curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
-` chmod u+x nvim.appimage
-` ./nvim.appimage
+###
+    curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+    chmod u+x nvim.appimage
+    ./nvim.appimage
 
 # How to install VIM Plug
 ` curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
