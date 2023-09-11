@@ -81,6 +81,7 @@ Then you can install the COC extension below in your command mode of neovim
 ###
     :CocInstall coc-c
     :CocInstall coc-snippets
+    :CocInstall coc-Clangd
 
 ## Python Configuration of COC
 ###
@@ -111,7 +112,7 @@ Like i said before Neovim is like a mirrowed vim. so if you can use VIM, you can
 
 <img align="center" src="./img/nvim.PNG">
 
-If you don't know how to use vim you can check out the video i made [HERE](https://youtu.be/rfgFHRoyk2M?si=sB9mJMVWdI2HTKaR), an Old video i made but i am sure you would definitely learn something new. I am also good to someday in the future make more videos on VIM/NVIM use.
+If you don't know how to use vim you can check out the video i made [HERE](https://youtu.be/rfgFHRoyk2M?si=sB9mJMVWdI2HTKaR), an Old video i made but i am sure you would definitely learn something new. I am also going to someday in the future make more videos on VIM/NVIM use.
 
 # Support
 If you found this repository helpful and you would like to appreciate me you can do that by 
