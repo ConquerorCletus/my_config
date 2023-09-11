@@ -97,8 +97,9 @@ Run this on your neovim terminal afterwards install jedi module for python with 
 I installed plugins to suite my needs, which might not be the same with yours, I even installed different sets of plugins that does the same thing, which may be excessive and not needed. Hence, the need to know how to remove such plugins or uninstall them. with vim plug(Your Vim/Neovim plugin manager) installed.
 
 1. You delete the line of plugin from the configuration file(~/.config/nvim/init.vim).
+
 ###
-   Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
+    `Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 
 2. Restart your neovim and run the command below in your neovim command mode.
 ###
