@@ -95,16 +95,25 @@ Run this on your neovim terminal afterwards install jedi module for python with 
 # Installing Your desired Plugin.
 I just gave you my plugins and my nvim but what i want may not be what you want/need. So this the step for installing the plugin you need (Assuming you installed vim plug as shown above).
 1. Google the Plugin you need. For instance;
+
 <img align="center" src="./img/nvim_google.PNG">
+
 2. Copy the github url/url of plugin.
+
 <img align="center" src="./img/nvim_url.PNG">
+
 3. Add this to your configuration file(~/.config/nvim/init.vim)
+
 <img align="center" src="./img/nvim_plug.PNG">
+
 ###
     Plug 'url_of_plugin'
+
 4. Restart vim/nvim and run the command below.
+
 ###
     :PlugInstall
+
 Congrats your new plugin has been installed!!!
 # uninstalling a plugin.
 I installed plugins to suite my needs, which might not be the same with yours, I even installed different sets of plugins that does the same thing, which may be excessive and not needed. Hence, the need to know how to remove such plugins or uninstall them. with vim plug(Your Vim/Neovim plugin manager) installed.
