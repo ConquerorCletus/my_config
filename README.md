@@ -1,5 +1,5 @@
 # Config files for BASH, NVIM, VIM and COC Extensions.
-<img align="center" src="./nvim_image.PNG">
+<img align="center" src="./img/nvim_image.PNG">
 
 
 
@@ -36,14 +36,18 @@ With my configuration you can do/have the following, not all are mentioned here 
 1. You would be able to use autocompletion in C, Python and your text files.
 2. You can hve your terminal with the press of F6.
 3. With ctrl+t you can toggle you file panel/nerdtree.
-4. You can automatically wrap your codes.
+4. You can automatically wrap your codes.i.e autoclosing parenthesis and bracket.
 5. You can see git changes on your file due to the git integration.
 6. You have access to Variety of colorschemes and also have number displayed and mouse enabled, you paste by shift+right click.
-7. You can move lines of code by selecting and pressing j or k on your keyboard to move down or up.
+7. You can move lines of code by selecting and pressing alt + j,k,h on your keyboard to move down or up.
 8. You coding errors would be indicated, there is a syntax/error checker.
+9. Comments lines of codes or scripts with typing "gc" in nvim command mode
 
-These are some features i can remember, I install plugins and map keys to make it easier for me to use but you would like my Configuration. 
+These are some features i can remember, I install plugins and map keys to make it easier for me to use but you would like my Configuration.
+I also did a fairly good job commenting what each plugin does, and group block of configuration together for easier understanding. That way you can easily install or uninstall whichever plugins you want to.
+
 # How to install VIM Plug
+Run the command below on your terminal:
 ###
     curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -88,6 +92,26 @@ Run this on your neovim terminal afterwards install jedi module for python with 
     sudo apt install python3-pip
 ###
     pip install jedi
+
+# uninstalling a plugin.
+I installed plugins to suite my needs, which might not be the same with yours, I even installed different sets of plugins that does the same thing, which may be excessive and not needed. Hence, the need to know how to remove such plugins or uninstall them. with vim plug(Your Vim/Neovim plugin manager) installed.
+
+1. You delete the line of plugin from the configuration file(~/.config/nvim/init.vim).
+###
+   Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
+
+2. Restart your neovim and run the command below in your neovim command mode.
+###
+	:PlugClean  
+ 
+with this you are done with uninstalling the plugin, you don't want.
+
+# Neovim like VIM.
+Like i said before Neovim is like a mirrowed vim. so if you can use VIM, you can use NVIM.
+
+<img align="center" src="./img/nvim.PNG">
+
+If you don't know how to use vim you can check out the video i made [HERE](https://youtu.be/rfgFHRoyk2M?si=sB9mJMVWdI2HTKaR), an Old video i made but i am sure you would definitely learn something new. I am also good to someday in the future make more videos on VIM/NVIM use.
 
 # Support
 If you found this repository helpful and you would like to appreciate me you can do that by 
