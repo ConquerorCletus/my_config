@@ -99,7 +99,7 @@ I installed plugins to suite my needs, which might not be the same with yours, I
 1. You delete the line of plugin from the configuration file(~/.config/nvim/init.vim).
 
 ###
-    `Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
+    Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 
 2. Restart your neovim and run the command below in your neovim command mode.
 ###
