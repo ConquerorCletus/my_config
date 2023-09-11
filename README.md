@@ -32,15 +32,15 @@ After this if you want to use neovim, you just have to type in "nv" on your term
 
 # Some features of my NVIM(my shell text editor i.e VIM).
 With my configuration you can do/have the following, not all are mentioned here you might need the help of chatGPT:
-1. You would be able to use autocompletion in C, Python and your text files.
-2. You can hve your terminal with the press of F6.
-3. With ctrl+t you can toggle you file panel/nerdtree.
-4. You can automatically wrap your codes.i.e autoclosing parenthesis and bracket.
-5. You can see git changes on your file due to the git integration.
-6. You have access to Variety of colorschemes and also have number displayed and mouse enabled, you paste by shift+right click.
-7. You can move lines of code by selecting and pressing alt + j,k,h on your keyboard to move down or up.
-8. You coding errors would be indicated, there is a syntax/error checker.
-9. Comments lines of codes or scripts with typing "gc" in nvim command mode
+- You would be able to use autocompletion in C, Python and your text files.
+- You can hve your terminal with the press of F6.
+- With ctrl+t you can toggle you file panel/nerdtree.
+- You can automatically wrap your codes.i.e autoclosing parenthesis and bracket.
+- You can see git changes on your file due to the git integration.
+- You have access to Variety of colorschemes and also have number displayed and mouse enabled, you paste by shift+right click.
+- You can move lines of code by selecting and pressing alt + j,k,h on your keyboard to move down or up.
+- You coding errors would be indicated, there is a syntax/error checker.
+- Comments lines of codes or scripts with typing "gc" in nvim command mode
 
 These are some features i can remember, I install plugins and map keys to make it easier for me to use but you would like my Configuration.
 I also did a fairly good job commenting what each plugin does, and group block of configuration together for easier understanding. That way you can easily install or uninstall whichever plugins you want to.
