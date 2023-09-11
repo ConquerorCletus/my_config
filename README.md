@@ -1,7 +1,6 @@
 # Config files for BASH, NVIM, VIM and COC Extensions.
 <img align="center" src="./img/nvim_image.PNG">
-
-
+<img align="center" src="./img/nvim_c.PNG">
 
 # How to install Neovim
 I make use of neovim, still vim but allow a wider use of more integrated plugins, which you can use to build your ***Custom Development Environment (CDE) or Personal Development Environment (PDE)***. These are the steps to install neovim on your linux(ubuntu) system.
