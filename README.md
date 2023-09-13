@@ -45,13 +45,13 @@ With my configuration you can do/have the following, not all are mentioned here 
 These are some features i can remember, I install plugins and map keys to make it easier for me to use but you would like my Configuration.
 I also did a fairly good job commenting what each plugin does, and group block of configuration together for easier understanding. That way you can easily install or uninstall whichever plugins you want to.
 
-# How to install VIM Plug
+# How to install VIM Plug (Very important you have vim-Plug installed!!!)
 Run the command below on your terminal:
 ###
     curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-This vim plug is necessary because it is the plugin manager of neovim and vim without it you can't install plugins necessary to configure your vim
+**This vim plug is necessary because it is the plugin manager of neovim and vim without it you can't install plugins necessary to configure your vim**
 
 **with VIM plug installed for neovim and my config files, You can then use the command below to install the plugins.**
 Use this command in neovim command mode.
