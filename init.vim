@@ -35,14 +35,21 @@ Plug 'clangd/coc-clangd', {'do': ':CocInstall coc-clangd'}
 Plug 'rstacruz/vim-closer'
 call plug#end()
 
-
+" Key mapping in Neovim inoremap is while in insert mode and nnoremap is for normal mode.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 nmap <F8> :TagbarToggle<CR>
-nnoremap <F6> :vsp<CR>:terminal<CR>
+inoremap <F6> <Esc>:sp<CR>:terminal<CR>i
+inoremap <C-s> <C-o>:w<CR>
+inoremap <C-q> <Esc>:wq<CR>
+noremap <C-q> <Esc>:wq<CR>
+
+" for toggling set paste mode on and of with ctrl + p 
+inoremap <C-p> <C-o>:set paste<CR>
+
 
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '▼'
