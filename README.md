@@ -136,6 +136,22 @@ Like i said before Neovim is like a mirrowed vim. so if you can use VIM, you can
 
 If you don't know how to use vim you can check out the video i made [HERE](https://youtu.be/rfgFHRoyk2M?si=sB9mJMVWdI2HTKaR), an Old video i made but i am sure you would definitely learn something new. I am also going to someday in the future make more videos on VIM/NVIM use.
 
+
+# Easy git add ., commit -m and push [using "gi"](./gi).
+By leveraging the use of bash scripts, I wrote a script that allows me to do all that(git add .; git commit -m "commit message"; git push) with one command because I was tired of using
+###
+    ga; gm 'commit message'; gp
+
+My alias for performing such action. You can use my scripts easily on your linux device or Command line interface easily.while in this repository(assuming you cloned this repository in your terminal) copy the command below(if you are using a linux device)
+###
+    chmod +x gi
+    sudo cp -p gi /usr/bin
+
+The command above makes the gi script executable and copies it to your bin directory with the required executable permission.
+
+You can watch how it works [HERE]()
+<img align="center" src="./img/gi.PNG">
+
 # Support
 If you found this repository helpful and you would like to appreciate me you can do that by 
 1. **Subscribing to my Youtube Channel** link is [HERE](https://youtube.com/@ConquerorDevs?si=FnVhOo1Z-EHSWxbQ)
