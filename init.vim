@@ -43,13 +43,18 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 nmap <F8> :TagbarToggle<CR>
 inoremap <F6> <Esc>:sp<CR>:terminal<CR>i
+noremap <F6> <Esc>:sp<CR>:terminal<CR>i
 inoremap <C-s> <C-o>:w<CR>
+noremap <C-s> <C-o>:w<CR>
+
 inoremap <C-q> <Esc>:wq<CR>
 noremap <C-q> <Esc>:wq<CR>
 
 " for toggling set paste mode on and of with ctrl + p 
 inoremap <C-p> <C-o>:set paste<CR>
+noremap <C-p> <C-o>:set paste<CR>
 
+inoremap <C-m> <C-o>:set nopaste<CR>
 
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '▼'
